@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleManager1", "VehicleManager1\VehicleManager1.csproj", "{CF396D74-2931-42BE-819C-F40D9DF36016}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleManager1", "VehicleManager1\VehicleManager1.csproj", "{CF396D74-2931-42BE-819C-F40D9DF36016}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleLibrary", "VehicleLibrary\VehicleLibrary.csproj", "{984A95B8-C491-4AC8-A0B0-18952DD4D89B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsAppVehicleManager", "WindowsAppVehicleManager\WindowsAppVehicleManager.csproj", "{8D273CEC-25A3-464F-8962-52B9FF2CEC3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleLibraryStandard", "ClassLibrary1\VehicleLibraryStandard.csproj", "{F080C396-EB6F-4E3B-AD8E-F79EF4B1A9C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{CF396D74-2931-42BE-819C-F40D9DF36016}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF396D74-2931-42BE-819C-F40D9DF36016}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF396D74-2931-42BE-819C-F40D9DF36016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{984A95B8-C491-4AC8-A0B0-18952DD4D89B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{984A95B8-C491-4AC8-A0B0-18952DD4D89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{984A95B8-C491-4AC8-A0B0-18952DD4D89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{984A95B8-C491-4AC8-A0B0-18952DD4D89B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D273CEC-25A3-464F-8962-52B9FF2CEC3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D273CEC-25A3-464F-8962-52B9FF2CEC3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D273CEC-25A3-464F-8962-52B9FF2CEC3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D273CEC-25A3-464F-8962-52B9FF2CEC3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F080C396-EB6F-4E3B-AD8E-F79EF4B1A9C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F080C396-EB6F-4E3B-AD8E-F79EF4B1A9C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F080C396-EB6F-4E3B-AD8E-F79EF4B1A9C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F080C396-EB6F-4E3B-AD8E-F79EF4B1A9C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
